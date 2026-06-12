@@ -4,7 +4,7 @@ package org.example;
 import org.example.logica.GestorCelulares;
 import org.example.logica.GestorClientes;
 import org.example.logica.GestorVentas;
-import org.example.logica.Test;
+import org.example.logica.test.GestorReportes;
 import org.example.modelo.CategoriaGama;
 import org.example.modelo.Celular;
 import org.example.modelo.Cliente;
@@ -52,7 +52,7 @@ public class Main {
                     menuReportes();
                     break;
                 case 5:
-                    Test.getInstancia();
+                    GestorReportes.getInstancia();
                     break;
                 case 6:
                     System.out.println("saliendo del sistema tecnostore...");
